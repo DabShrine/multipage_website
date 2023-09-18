@@ -4,16 +4,20 @@
         <title>
             Website
         </title>
-    </head>
-    <style>
+        <style>
+        body {
+          background-image: url("bgbeach.jpg");
+          background-size: cover;
+          font-family: Arial, Helvetica, sans-serif;
+          }
         a:link {
-          color: #808080;
+          color: lightcoral;
           background-color: transparent;
           text-decoration: none;
         }
                 
         a:hover {
-          color: darkslategray;
+          color: lightseagreen;
           background-color: transparent;
           text-decoration: underline;
         }
@@ -24,13 +28,18 @@
           text-decoration: underline;
         }
     </style>
+    </head>
+    
     <body>
-        <h1>Welcome To My Website!</h1>
-        <br>
-        <img src="dudebro.png"
-            width="200" height="200">
+        <p style="font-size: larger; font-weight: 550; text-align: center;"> Artist, photographer, father </p>
+        <h1 style="font-family: Comic Sans MS; text-align: center; vertical-align: middle; color:lightsalmon;" > Christopher Moore </h1>
         <hr>
-        <a href="abme.html">About Me</a>
-        <a href="https://thispersondoesnotexist.com"> My portfolio</a>
+        <table style="width: 100%;">
+        <tr>
+          <th><a href="https://thispersondoesnotexist.com"> My portfolio</a></th>
+          <th></th>
+          <th><a href="abme.html" style="text-align: end;">More About Me</a></th>
+        </tr>
+      </table>
     </body>
 </html>
